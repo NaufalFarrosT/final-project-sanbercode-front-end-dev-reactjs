@@ -103,8 +103,8 @@ const JobTable = () => {
 
   return (
     <>
-      <div className="h-screen w-1/2 m-5">
-        <div className="container w-fit my-5">
+      <div className="h-screen w-screen m-5">
+        <div className="container w-screen my-5">
           <form onSubmit={HandleSearch}>
             <div className="flex flex-col justify-evenly h-64 w-3/4 mx-auto border-2 border-slate-500 p-3 md:flex-row md:h-fit">
               <input

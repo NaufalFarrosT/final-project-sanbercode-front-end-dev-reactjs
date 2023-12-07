@@ -15,12 +15,12 @@ import DetailJob from "./layouts/jobDetail";
 
 
 const App = () => {
-  const user = localStorage.getItem("user")
+
   return (
     <>
       <BrowserRouter>
         <AuthProvider>
-          {user == null ?<DefaultNavbar />:""}
+          <DefaultNavbar />
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/job-detail" element={<DetailJob />} />
